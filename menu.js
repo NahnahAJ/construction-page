@@ -1,29 +1,34 @@
 staff = [
-  { image: 'https://picsum.photos/200',
-  name: 'Janet Jumah',
-  tags: 'CEO & CO-FOUNDER',
+  { image: '/Icons/constructor-2.jpg',
+  name: 'Hilary Doe',
+  tags: 'CEO & Co-founder',
   about: 'A lot of text'
   },
-  { image:'https://picsum.photos/200',
-  name: 'Hilary Doe',
+  { image:'./Icons/c.jpg',
+  name: 'Mark Olsen',
   tags: 'Chief Architect',
   about: 'A lot of text'
   },
-  { image:'https://picsum.photos/200',
+  { image:'./Icons/constructor-3.jpg',
   name: 'John James',
+  tags: 'Construction Manager',
+  about: 'A lot of text'
+  },
+  { image:'./Icons/constructor-4.jpg',
+  name: 'Janet Jumah',
   tags: 'Head of Marketing',
   about: 'A lot of text'
   },
-  { image:'https://picsum.photos/200',
-  name: 'Nahnah Ahjuwah',
-  tags: 'Customer Service Rep',
+  { image:'./Icons/constructor-5.jpg',
+  name: 'Lena Perry',
+  tags: 'Interior Designer',
   about: 'A lot of text'
   },
-  { image:'https://picsum.photos/200',
-  name: 'Otis Perry',
-  tags: 'Customer Service Rep',
+  { image:'./Icons/constructor-5.jpg',
+  name: 'Lena Perry',
+  tags: 'Interior Designer',
   about: 'A lot of text'
-  },
+  }
 ]
  let staffCard = '';
  staff.forEach((element) => {
