@@ -21,10 +21,36 @@ body {
   font-family: var(--font-family);
 }
 
-nav {
-  padding: 1rem;
+.hamburger, .close {
+padding: 1rem;
+cursor: pointer;
 }
 
+.menu-nav {
+  background-color: var(--white-color);
+  height: 100vh;
+  width: 100vw;
+  display: none;
+}
+
+.menu-nav ul li {
+  list-style: none;
+  padding: 2rem;
+  font-size: 4rem;
+}
+.menu-nav ul li a {
+  text-decoration: none;
+  color: var(--dark-color);
+  border: 1px solid transparent;
+  padding: 1rem 2rem;
+}
+.menu-nav ul li a:hover {
+  border: 1px solid var(--orange-color);
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  transition: 500ms ease-in;
+
+}
 .container, .container-2 {
   margin: 3rem 2rem;
   display: flex;
@@ -48,6 +74,11 @@ nav {
 }
 
 .ctn-item-one h1 {
+  background-image: url(./Images/back-text.jpeg);
+  background-repeat: repeat;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 3.5rem;
   line-height: 90%;
 }
@@ -91,7 +122,7 @@ main {
 .services hr {
   border: 1px solid #ec5242;
   width: 4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .services h2 , .services p {
@@ -145,18 +176,24 @@ border-radius: 5px;
 }
 
 /* Javascript Dynamic section */
-
+#featured-speakers {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
 .staffCon {
 border: 2px solid wheat;
 display: flex;
 align-items: center;
-margin-bottom: 2rem;
+padding: 1rem;
 }
 
 .staffCon-image img {
-  width: 10rem;
+  background-image: url(./Icons/checked-patter/CheckerBoardSeemlessPattern.jpg);
+  background-repeat: no-repeat;
+  background-size: 5rem;
+  background-position: top left;
+  width: 12rem;
   padding: 1rem;
-  border-radius: 4rem;
 }
 
 .staffCon-about .red-text {
@@ -166,11 +203,17 @@ margin-bottom: 2rem;
 .staffCon-about hr {
   border: 1px solid var(--ash-color);
   width: 2.5rem;
-  margin: 0.5rem;
+  margin: 1rem;
+  /* padding-bottom: 1rem; */
 }
 
 .staffCon-about {
 color: var(--dark-color);
+}
+
+
+.short {
+  height: 50%;
 }
 
 /* Styles for the About PAGE */
@@ -301,6 +344,14 @@ justify-content: space-around;
   display: none;
 }
 
+.display {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
 
 /* DESKTOP VIEW SECTION */
 
@@ -314,14 +365,14 @@ justify-content: space-around;
   }
 
   body {
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.5), rgba(250, 235, 215, 0.8)), url(./Icons/desktopbg-img.jpg);
+    background-image: linear-gradient(to bottom, rgba(106, 108, 114, 0.6), rgba(250, 235, 215, 0.8)), url(./Icons/desktopbg-img.jpg);
+   
   }
-
   .nav-one {
     display: flex;
     justify-content: flex-end;
     gap: 1.5rem;
-    padding-right: 8rem;
+    padding: 1rem 8rem;
     color: var(--white-color);
     cursor: pointer;
   }
@@ -334,6 +385,7 @@ justify-content: space-around;
     color: var(--dark-color);
     border: 1px solid #fff;
     padding: 1rem;
+    transition-duration: 500ms;
   }
 
   .nav-white ul li a:hover {
@@ -361,12 +413,19 @@ justify-content: space-around;
   .nav-white img {
     width: auto;
     max-height: 3rem;
+    transition: 500ms;
+    transition-timing-function: ease-in;
+    transition-delay: 350ms;
+  }
+  .nav-white img:hover {
+    transform: rotate(90deg);
   }
   .nav-white button {
     border: 3px solid var(--orange-color);
     background-color: var(--white-color);
     color: var(--orange-color);
     padding: 1rem;
+    transition-duration: 500ms;
   }
   .nav-white button:hover {
     border: 3px solid var(--white-color);
@@ -481,5 +540,13 @@ gap: 1rem;
 
 .dark-footer p {
   color: var(--white-color);
+}
+
+.services h2, .partners h3 {
+  font-size: 2rem;
+}
+
+.about-none {
+  display: none;
 }
 }
