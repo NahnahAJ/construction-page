@@ -7,6 +7,8 @@
   <script src="https://kit.fontawesome.com/8bb7dadbeb.js" crossorigin="anonymous"></script>
   <link href="./styles.css" rel="stylesheet">
   <title>ECO-BUILDERS About-Page</title>
+  <link rel="icon" type="image/x-icon" href="./Icons/favicon.ico">
+
 </head>
 <body>
   <nav>
@@ -30,8 +32,15 @@
     <button>ECO Campaign</button>
   </nav>
   <nav class="nav">
-    <i class="fa-solid fa-bars fa-3x"></i>
-  </nav>  
+    <i class="fa-solid fa-bars fa-3x hamburger"></i>
+    <div class="menu-nav">
+      <div><i class="fa-solid fa-xmark fa-3x close"></i></div>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+      </ul>
+    </div>
+  </nav> 
   <header class="container-2">
     <div class="ctn-item-one">
       <p>"Hello! ECO World"</p>
@@ -84,10 +93,24 @@
   </section>
 
   <footer>
+    <div class="partners about-none">
+      <h3>Partners</h3>
+      <hr>
+      <div class="partners-logos">
+        <img src="./Icons/eneco_logo.png" alt="logo-1">
+        <img src="./Icons/shell_logo.png" alt="logo-5">
+        <img src="./Icons/energie360_logo.png" alt="logo-2">
+        <img src="./Icons/futureenergyventures_logo.png" alt="logo-3">
+        <img src="./Icons/equinor_logo_new.png" alt="logo-4">
+        <img src="./Icons/moixa_logo.png" alt="logo-4">
+      </div>
+  </div>
     <div class="rights-footer dark-footer">
       <img src="./Icons/Eco-Builders-Logo.png" alt="logo">
       <p>2022 Eco Builders<br> Some Rights Reserved.</p>
     </div>
   </footer>
+  
+  <script src="menu.js"></script>
     </body>
 </html>
