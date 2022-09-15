@@ -30,20 +30,6 @@ staff = [
   about: 'Francis and his team use their training to design, construct, and test structures and problem-solving systems. They specialise in particular areas and drive innovation to meet both client demands environmental demands.'
   }
 ]
- let staffCard = '';
- staff.forEach((element) => {
-  staffCard = `${staffCard}<div class="staffCon">
-  <div class="staffCon-image"><img src=${element.image}></div>
-  <div class="staffCon-about"><h2>${element.name}</h2><p class="red-text"><i>${element.tags}</i></p><hr><p>${element.about}</p></div>
-  </div>`
- });
-
-const main = document.getElementById('featured-speakers')
-const workers = document.createElement('div')
-workers.className = 'workers';
-workers.innerHTML = staffCard;
-main.append(workers);
-
 
 
 const hamburger = document.querySelector('.hamburger');
@@ -67,6 +53,26 @@ document.querySelectorAll('.menu-link').forEach((n) => n.addEventListener('click
   hamburger.classList.toggle('hidden');
   document.body.style.overflow = 'auto';
 }));
+
+
+let staffCard = '';
+ staff.forEach((element) => {
+  staffCard = `${staffCard}<div class="staffCon">
+  <div class="staffCon-image"><img src=${element.image}></div>
+  <div class="staffCon-about"><h2>${element.name}</h2><p class="red-text"><i>${element.tags}</i></p><hr><p>${element.about}</p></div>
+  </div>`
+ });
+
+const main = document.getElementById('featured-speakers')
+const workers = document.createElement('div')
+
+workers.className = 'workers';
+workers.innerHTML = staffCard;
+if(main) {
+  main.append(workers);
+}
+
+
 
 
 
