@@ -1,6 +1,6 @@
 const staff = [
   {
-    image: '/Icons/constructor-2.jpg',
+    image: './Icons/constructor-2.jpg',
     name: 'Hilary Doe',
     tags: 'CEO & Co-founder',
     about: 'After starting out the company as a regular construction comapny, Hilary saw to make a change in how buildings are made so as to sustain the environment. With his vision, Eco-Builders was formed.',

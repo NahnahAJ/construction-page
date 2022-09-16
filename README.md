@@ -10,10 +10,11 @@
 - Html
 - Javascript
 - CSS 
+- Behance
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[ECO BUILDERS](https://nahnahaj.github.io/construction-page/)
 
 
 ## Getting Started
@@ -26,11 +27,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
+### Setup Html, Css, and Javascript linters
 
-### Install
+### Install the linter files on your local device using this [link](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
 
-### Usage
+### You can follow the steps in the link above to test for linter errors
 
 ### Run tests
 
@@ -38,19 +39,14 @@ To get a local copy up and running follow these simple example steps.
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Nahnah Ahjuwah**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/NahnahAJ)
+- Twitter: [@twitterhandle](https://https://twitter.com/NahnahAhjuwah)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/felicia-awuah-0674a7152/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,12 +60,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by [Cindy Shin in Behance.](https://www.behance.net/adagio07)
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
