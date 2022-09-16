@@ -1,15 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# ECO BUILDERS
 
-> Description the project.
+> Building a construction landing page for a company that builds durable and eco-friendly buildings.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html
+- Javascript
+- CSS 
 
 ## Live Demo (if available)
 
