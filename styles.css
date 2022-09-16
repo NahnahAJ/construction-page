@@ -73,8 +73,8 @@ body {
 .container-main {
   display: grid;
   gap: 1rem;
-  justify-content: center;
-  align-items: center;
+  align-content: center;
+  justify-items: center;
 }
 
 .container-main button {
@@ -369,7 +369,8 @@ main {
 
 .nav-one,
 .nav-white,
-.ctn-item-one hr {
+.ctn-item-one hr, 
+.desktop-link {
   display: none;
 }
 
@@ -502,6 +503,12 @@ main {
     font-size: 4rem;
   }
 
+  .container-main button {
+    display: none;
+  }
+
+  .desktop-items
+
   .text {
     width: 30rem;
     font-size: 0.5rem;
@@ -519,6 +526,14 @@ main {
     text-align: center;
     gap: 0.5rem;
     grid-template-columns: repeat(5, 1fr);
+  }
+  .desktop-link {
+    display: block;
+    padding: 5rem;
+  }
+  .desktop-link a {
+    color: var(--white-color);
+    text-transform: uppercase;
   }
 
   #featured-speakers {
