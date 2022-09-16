@@ -188,7 +188,6 @@ main {
   font-size: 1.2rem;
 }
 
-
 /* Javascript Dynamic section */
 #featured-speakers {
   padding-top: 1rem;
@@ -381,7 +380,6 @@ main {
   display: none;
 }
 
-
 /* DESKTOP VIEW SECTION */
 
 @media (min-width: 768px) {
@@ -457,7 +455,7 @@ main {
   }
 
   .nav-white img:hover {
-    transform: scale(1.1)
+    transform: scale(1.1);
   }
 
   .nav-white button {
