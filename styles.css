@@ -312,10 +312,12 @@ main {
 
 .location-1 {
   background-image: url(./Icons/project-1.jpeg);
+  transition: 0.7s;
 }
 
 .location-2 {
   background-image: url(./Icons/project-2.jpeg);
+  transition: 0.7s;
 }
 
 .location-1 p,
@@ -328,6 +330,7 @@ main {
 .location-2:hover {
   border: 2px solid var(--dark-color);
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .partners {
@@ -448,13 +451,13 @@ main {
   .nav-white img {
     width: auto;
     max-height: 3rem;
-    transition: 500ms;
+    transition: 400ms;
     transition-timing-function: ease-in;
-    transition-delay: 350ms;
+    transition-delay: 300ms;
   }
 
   .nav-white img:hover {
-    transform: rotate(90deg);
+    transform: scale(1.1)
   }
 
   .nav-white button {
