@@ -16,8 +16,8 @@
 
 [ECO BUILDERS](https://nahnahaj.github.io/construction-page/)
 
- ** To get the image path -->
-** To get the image path -->
+> ![](./screenshots/app_screenshot.png)
+> ![](./screenshots/app_screenshot-mobile.png)
 
 ## Getting Started
 
@@ -35,9 +35,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-- Open your Terminal/Powershell or any command line interface you use, then navigate to your created above directory or the directory you'll like to clone this project directory
-- Type `git clone https://github.com/NahnahAJ/construction-page.git` if your're using https with git or `git clone git@github.com:NahnahAJ/construction-page.git` if your preferred is ssh and hit enter
-- Navigate to the `construction-page` directory on your local computer in your above chosen directory and open the `index.html` file
+- Open your Terminal/Powershell or any command line interface you use, then navigate to your created above directory or the directory you'll like to clone this project directory.
+- Type `git clone https://github.com/NahnahAJ/construction-page.git` if your're using https with git or `git clone git@github.com:NahnahAJ/construction-page.git` if your preferred is ssh and hit enter.
+- Navigate to the `construction-page` directory on your local computer in your above chosen directory and open the `index.html` file.
 
 ### Usage
 
