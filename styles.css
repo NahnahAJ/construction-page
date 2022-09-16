@@ -190,12 +190,12 @@ main {
 
 /* Javascript Dynamic section */
 #featured-speakers {
+  background-color: rgba(250, 252, 250, 0.8);
   padding-top: 1rem;
   padding-bottom: 4rem;
 }
 
 .staffCon {
-  border: 2px solid wheat;
   display: flex;
   align-items: center;
   padding: 1rem;
@@ -218,8 +218,6 @@ main {
   border: 1px solid var(--ash-color);
   width: 2.5rem;
   margin: 1rem;
-
-  /* padding-bottom: 1rem; */
 }
 
 .staffCon-about {
@@ -508,6 +506,8 @@ main {
 
   .items-lo {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .desktop-items {
@@ -515,11 +515,11 @@ main {
     justify-content: center;
     text-align: center;
     gap: 0.5rem;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 
   #featured-speakers {
-    background-color: rgba(250, 235, 215);
+  background-color: rgba(250, 252, 250, 0.8);
   }
 
   .workers {
