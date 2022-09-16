@@ -73,6 +73,8 @@ body {
 .container-main {
   display: grid;
   gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-main button {
@@ -80,7 +82,8 @@ body {
   color: var(--white-color);
   font-size: large;
   margin: 10%;
-  padding: 1.5rem;
+  align-self: center;
+  padding: 1rem;
   border: none;
   cursor: pointer;
 }
@@ -539,10 +542,6 @@ main {
     width: 10rem;
   }
 
-  .desktop-btn {
-    width: 25rem;
-    margin: 0 auto;
-  }
 
   /* DESKTOP ABOUT PAGE */
 
